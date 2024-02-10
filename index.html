@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Product preview card component</title>
-
-</head>
-<body>
-  <main class="container">
-    <section>
-      <img src="./images/image-product-desktop.jpg" alt="Product image" class="product-image">
-    </section>
-    <section class="product-info">
-      <header class="product-category">perfume</header>
-      <h1 class="product-name">gabrielle essence eau<br /> de parfum</h1>
-      <p class="product-description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
-      <article class="price">
-        <h2 class="new-price">$149.99</h2>
-        <small class="old-price">$169.99</small>
-      </article>
-      <button class="add-cart-button"><img src="./images/icon-cart.svg" alt="Cart icon"> <p>Add to cart</p></button>
-    </section>
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <img src="./images/image-product-desktop.jpg" alt="product image" class="product-image">
+      </section>
+      <section class="infos">
+        <header>perfume</header>
+        <h1>gabrielle essence eau de parfum</h1>
+        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <article><span class="price">$149.99</span><span class="old-price">$169.99</span></article>
+        <button><img src="./images/icon-cart.svg" alt="cart icon"> Add to Cart</button>
+      </section>
+    </main>
+  </body>
 </html>
