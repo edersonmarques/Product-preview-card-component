@@ -1,0 +1,11 @@
+page background: #f3eae3
+
+info background: #ffffff
+
+title: #181b22
+
+button: #181b22
+
+price:  #181b22
+
+old-price and other texts: #181b22
