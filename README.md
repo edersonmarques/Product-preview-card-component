@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/edersonmarques/Product-preview-card-component/
+- Live Site URL: https://edersonmarques.github.io/Product-preview-card-component/
 
 ## My process
 
