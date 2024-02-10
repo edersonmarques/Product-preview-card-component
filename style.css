@@ -14,6 +14,10 @@ body {
     align-items: center;
 }
 
+.mobile-image {
+    display: none;
+}
+
 .container {
     display: flex;
     width: 576px;
@@ -102,4 +106,43 @@ button {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+@media (max-width: 590px) {
+
+    .container {
+        width: 90%;
+        height: 90vh;
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .infos {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        gap: 5%;
+        height: 60%;
+    }
+
+    .product-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        height: 100%;
+    }
+
+    .img-container {
+        height: 40%;
+    }
+
+    h1, p {
+        width: 100%;
+    }
 }
