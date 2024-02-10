@@ -6,6 +6,8 @@
 
 Used: HTML and CSS pure, flexbox
 
-Objetive: Training CSS
+Objetive: Training responsive design
+
+It's just a pretty simple challenge,  nothing so relatable here
 
 
